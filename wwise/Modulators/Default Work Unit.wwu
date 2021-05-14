@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{730C43FE-793D-4FD0-BDB0-2E21EA2AB63A}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{730C43FE-793D-4FD0-BDB0-2E21EA2AB63A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{A0677B91-1B2D-4168-BF3F-605CC12420C2}" ShortID="287371145">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{926D6332-C0D7-4C2E-BBF5-C912F5EAFAF1}" ShortID="564401831">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="New Modulator Envelope_01" ID="{453A89F4-91AB-443E-9B57-FE7AE6B0121E}" WorkUnitID="{730C43FE-793D-4FD0-BDB0-2E21EA2AB63A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2D9D3C61-5AFC-4F61-83B2-CD1EE66FF5E4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>100</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.132"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.521"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="New Modulator LFO" ID="{63458EAA-812F-4C05-89DE-F8A6D2055730}" ShortID="81052416">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="6.79"/>
+						<Property Name="LfoInitialPhase" Type="Real64" Value="125"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorTime Name="New Modulator Time" ID="{5EEC7591-F820-405F-BEAE-91CA387EDD26}" ShortID="333342482"/>
+				<ModulatorEnvelope Name="New Modulator Envelope_01" ID="{453A89F4-91AB-443E-9B57-FE7AE6B0121E}" ShortID="422656903">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.053"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.116"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="8.9"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="New Modulator Envelope_02" ID="{E991C578-C63B-44D3-A410-3065A655C4B1}" ShortID="353133067"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

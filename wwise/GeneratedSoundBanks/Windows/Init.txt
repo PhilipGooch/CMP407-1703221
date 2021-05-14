@@ -1,0 +1,29 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	707535153	life_state			\Default Work Unit\life_state	
+	3457490076	speaker_occluded			\Default Work Unit\speaker_occluded	
+	4122393694	cave			\Default Work Unit\cave	
+
+State	ID	Name	State Group			Notes
+	655265632	alive	life_state			
+	748895195	None	life_state			
+	2044049779	dead	life_state			
+	748895195	None	speaker_occluded			
+	2452206122	false	speaker_occluded			
+	3053630529	true	speaker_occluded			
+	748895195	None	cave			
+	2452206122	false	cave			
+	3053630529	true	cave			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4122393694	cave			\Default Work Unit\Master Audio Bus\cave	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

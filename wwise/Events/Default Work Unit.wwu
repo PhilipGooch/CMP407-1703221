@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C819B834-4C4D-498E-8AE5-5797021FBF31}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C819B834-4C4D-498E-8AE5-5797021FBF31}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{CEBADDD8-6D1E-46DA-A7E9-C284261B13AA}">
+					<ChildrenList>
+						<Action Name="" ID="{D25709EA-E74D-4B6D-8B00-78A98221CD06}" ShortID="681805028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{FD53D4F1-9B9F-475C-9B5C-5A30C31EF342}" WorkUnitID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footstep_Event" ID="{F4CC32E9-8058-4E0A-9E10-3367C43F0D72}">
+					<ChildrenList>
+						<Action Name="" ID="{071E589C-3C39-42FE-9B10-BB13890EDD1D}" ShortID="747666258">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Trigger" ID="{2927D9E9-6BAD-4FB5-B42D-79DE4C2E7FB3}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2733D8AE-2824-4220-BBDB-9E411508DD93}" ShortID="716959052">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stingers Switch" ID="{D87FE822-ADC5-48EB-837F-76CFBCA695D6}" WorkUnitID="{383D1440-9DBE-474B-A084-5602CCBDE8B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="drum_and_bass_event" ID="{7EAE16A5-AF2F-4C55-820C-0A7E1CAD08F2}">
+					<ChildrenList>
+						<Action Name="" ID="{EB708C8F-1404-4EF0-9BE4-15C153AFB78D}" ShortID="303143176">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drum and bass container" ID="{105905AF-576B-4177-8524-F8A7B8A7DF5D}" WorkUnitID="{383D1440-9DBE-474B-A084-5602CCBDE8B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="biome events" ID="{9F93AB44-892C-431B-918A-F2CDBDE1A78D}" ShortID="602657305">
+					<ChildrenList>
+						<Event Name="gravel_event" ID="{F6091499-E211-4B29-85AD-ED0D2A9C27CB}">
+							<ChildrenList>
+								<Action Name="" ID="{34D23C56-D7AE-4155-9435-93B3DE15BEF0}" ShortID="452224850">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gravel_trigger" ID="{F95BEAD1-5539-428C-96FC-AE26D86EF9AC}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="snow_event" ID="{73F9BFF4-8512-499D-BF24-3F0380D3DD0C}">
+							<ChildrenList>
+								<Action Name="" ID="{8D54A8B9-F4F5-48EE-AD59-0368BDD50A02}" ShortID="329972765">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="snow_trigger" ID="{1A80614D-BA08-4719-A77E-994682C6D239}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="grass_event" ID="{8E2F9210-95E7-4D0C-8D30-0400DC2C6D97}">
+							<ChildrenList>
+								<Action Name="" ID="{3701AA91-DDD7-4180-984B-41D1E62763B0}" ShortID="758485453">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="grass_trigger" ID="{F780C13D-CE08-4ACD-8790-855B7529AF7F}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="dirt_event" ID="{0E5C5776-A8E8-4CA5-BF71-CEDC9DC08C53}">
+							<ChildrenList>
+								<Action Name="" ID="{C146128A-14FC-4A4B-ADF6-15D245FA5975}" ShortID="550245473">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gravel_trigger" ID="{F95BEAD1-5539-428C-96FC-AE26D86EF9AC}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sand_event" ID="{36BAA19F-2442-4AF4-A492-69B61A02AFC9}">
+							<ChildrenList>
+								<Action Name="" ID="{D6938FC3-3143-44A0-AFBE-99FAAD996CF8}" ShortID="448826619">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sand_trigger" ID="{D5B982B3-334A-4E38-BC8D-04D7F50CBC62}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="metal_event" ID="{0A3734FB-9A39-4942-9D91-2B2BA2DCF5D2}">
+							<ChildrenList>
+								<Action Name="" ID="{C4038276-06F3-4F08-A63A-883E54F3C10B}" ShortID="364023658">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="metal_trigger" ID="{D9BA8C7B-A664-4B12-B513-85D18381524B}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stone_event" ID="{5D38B30B-1BD0-49CF-B545-79A3BBB0DBFF}">
+							<ChildrenList>
+								<Action Name="" ID="{38F4EFE3-DA6A-4CE2-9B30-776B806B775B}" ShortID="526245586">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="stone_trigger" ID="{32CBC91D-0403-4ED5-B6D4-DFE72D95E75B}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="wood_event" ID="{257CD0A9-9544-4EB8-ACB2-7A99BB085E71}">
+							<ChildrenList>
+								<Action Name="" ID="{73D9167F-47EB-4774-B243-A3BEC7DD510D}" ShortID="897813794">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wood_trigger" ID="{7BF42008-9E8C-4E8F-9618-47DA1F73DCD4}" WorkUnitID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Buzz" ID="{4D204CDF-B599-479C-AF35-85B07E5167BD}">
+					<ChildrenList>
+						<Action Name="" ID="{0F69AB9A-A6A2-4F72-8DC6-CD3C21F1CA86}" ShortID="74293416">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buzz" ID="{51C752D0-32A6-4625-9729-9F46DC704B8A}" WorkUnitID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="eat_carrot" ID="{8CDD23D8-E426-42D2-973C-1A41EDD3E8DC}">
+					<ChildrenList>
+						<Action Name="" ID="{03ACB049-8F22-443C-A6A5-67250C810D5D}" ShortID="377339963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carrot crunches" ID="{DDB5F9A2-3241-4CAF-A88E-79D7A4F08187}" WorkUnitID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pull_carrot" ID="{25B7B260-D1BF-464E-971E-DC83F04A7E28}">
+					<ChildrenList>
+						<Action Name="" ID="{FA916423-C797-4BE2-BBC4-A293A2C992E7}" ShortID="449945368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carrot pulling" ID="{EA20E295-BCC8-4657-AAF6-DEB3D27157D7}" WorkUnitID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="death_event" ID="{BC7D6570-2C94-4241-9F4A-CD80296B0AAF}">
+					<ChildrenList>
+						<Action Name="" ID="{742B599A-05FE-40A5-908C-FA8DDC09E236}" ShortID="534722632">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}" WorkUnitID="{5C314351-5C28-4490-8D29-AF1B272F34C2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="melody_event" ID="{2FC831BC-399B-469E-88AB-6E498ACABD9A}">
+					<ChildrenList>
+						<Action Name="" ID="{025C46F1-F0C6-4730-85C3-1DD0144D276D}" ShortID="745187190">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="melody container" ID="{3359C85B-D43D-4266-9565-B682D366E600}" WorkUnitID="{383D1440-9DBE-474B-A084-5602CCBDE8B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="speaker_occlusion_event" ID="{EFA28D2F-66A1-47FC-976C-B59B159010B0}">
+					<ChildrenList>
+						<Action Name="" ID="{222C13CF-6B89-46AF-B1AD-B40ED94914BC}" ShortID="300201726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="true" ID="{677840A1-E555-42C4-9206-D2C08B6EBC07}" WorkUnitID="{5C314351-5C28-4490-8D29-AF1B272F34C2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="speaker_no_occlusion_event" ID="{07561C95-5999-493C-A73D-0B62049A2CF1}">
+					<ChildrenList>
+						<Action Name="" ID="{0EA624CE-E8F5-4DC2-A3C8-D633FBB081D5}" ShortID="2637825">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="false" ID="{89F1B815-4048-4DD9-AD8C-C004E2FCB8CB}" WorkUnitID="{5C314351-5C28-4490-8D29-AF1B272F34C2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

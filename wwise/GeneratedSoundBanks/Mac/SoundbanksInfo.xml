@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="2438915919">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1545069278" Name="Buzz" ObjectPath="\Events\Default Work Unit\Buzz" MaxAttenuation="10.000000" DurationType="Unknown"/>
+				<Event Id="3024221945" Name="eat_carrot" ObjectPath="\Events\Default Work Unit\eat_carrot" DurationType="OneShot" DurationMin="1.022484" DurationMax="1.525943"/>
+				<Event Id="712465182" Name="pull_carrot" ObjectPath="\Events\Default Work Unit\pull_carrot" DurationType="OneShot" DurationMin="0.187592" DurationMax="0.282955"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="314218332" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_F3A85247.wem</Path>
+				</File>
+				<File Id="352249606" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_D72871DC.wem</Path>
+				</File>
+				<File Id="573020277" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_5F54014E.wem</Path>
+				</File>
+				<File Id="751037103" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_AA3CB29B.wem</Path>
+				</File>
+				<File Id="778144557" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_6F9518CF.wem</Path>
+				</File>
+				<File Id="1003667622" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_C93D254E.wem</Path>
+				</File>
+				<File Id="1005844554" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_DC230014.wem</Path>
+				</File>
+				<File Id="1069736556" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_FDD39D40.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1217018071" Name="speaker_listener_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_listener_angle"/>
+				<GameParameter Id="1860277923" Name="bee_distance" ObjectPath="\Game Parameters\Default Work Unit\bee_distance"/>
+				<GameParameter Id="1954255994" Name="speaker_distance" ObjectPath="\Game Parameters\Default Work Unit\speaker_distance"/>
+				<GameParameter Id="2295050251" Name="speaker_emitter_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_emitter_angle"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="497763217">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="4122393694" Name="cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\cave"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="1381315342" Language="SFX" Hash="1951321709">
+			<ObjectPath>\SoundBanks\Default Work Unit\Events</ObjectPath>
+			<ShortName>Events</ShortName>
+			<Path>Events.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1545069278" Name="Buzz" ObjectPath="\Events\Default Work Unit\Buzz" MaxAttenuation="10.000000" DurationType="Unknown"/>
+				<Event Id="3150300228" Name="death_event" ObjectPath="\Events\Default Work Unit\death_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\life_state\dead"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3218625211" Name="dirt_event" ObjectPath="\Events\Default Work Unit\biome events\dirt_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1955262086" Name="drum_and_bass_event" ObjectPath="\Events\Default Work Unit\drum_and_bass_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="47941933" Language="SFX">
+							<ShortName>wood2.wav</ShortName>
+							<Path>SFX\wood2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="65677158" Language="SFX">
+							<ShortName>grass1.wav</ShortName>
+							<Path>SFX\grass1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="145188559" Language="SFX">
+							<ShortName>snow2.wav</ShortName>
+							<Path>SFX\snow2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="168900262" Language="SFX">
+							<ShortName>snow1.wav</ShortName>
+							<Path>SFX\snow1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="241528565" Language="SFX">
+							<ShortName>wood3.wav</ShortName>
+							<Path>SFX\wood3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="306226971" Language="SFX">
+							<ShortName>stone1.wav</ShortName>
+							<Path>SFX\stone1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="437513822" Language="SFX">
+							<ShortName>metal1.wav</ShortName>
+							<Path>SFX\metal1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="490932561" Language="SFX">
+							<ShortName>metal2.wav</ShortName>
+							<Path>SFX\metal2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="532095538" Language="SFX">
+							<ShortName>metal3.wav</ShortName>
+							<Path>SFX\metal3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="568836554" Language="SFX">
+							<ShortName>wood1.wav</ShortName>
+							<Path>SFX\wood1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="595856568" Language="SFX">
+							<ShortName>sand1.wav</ShortName>
+							<Path>SFX\sand1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="685919870" Language="SFX">
+							<ShortName>stone3.wav</ShortName>
+							<Path>SFX\stone3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="699039222" Language="SFX">
+							<ShortName>gravel1.wav</ShortName>
+							<Path>SFX\gravel1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="726876384" Language="SFX">
+							<ShortName>sand3.wav</ShortName>
+							<Path>SFX\sand3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="954675299" Language="SFX">
+							<ShortName>snow3.wav</ShortName>
+							<Path>SFX\snow3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="981059498" Language="SFX">
+							<ShortName>drum.wav</ShortName>
+							<Path>SFX\drum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1006991420" Language="SFX">
+							<ShortName>gravel2.wav</ShortName>
+							<Path>SFX\gravel2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013458678" Language="SFX">
+							<ShortName>grass3.wav</ShortName>
+							<Path>SFX\grass3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1038956717" Language="SFX">
+							<ShortName>sand2.wav</ShortName>
+							<Path>SFX\sand2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1049264431" Language="SFX">
+							<ShortName>stone2.wav</ShortName>
+							<Path>SFX\stone2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1056488601" Language="SFX">
+							<ShortName>gravel3.wav</ShortName>
+							<Path>SFX\gravel3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1066184890" Language="SFX">
+							<ShortName>bass.wav</ShortName>
+							<Path>SFX\bass_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3024221945" Name="eat_carrot" ObjectPath="\Events\Default Work Unit\eat_carrot" DurationType="OneShot" DurationMin="1.022484" DurationMax="1.525943">
+					<IncludedMemoryFiles>
+						<File Id="352249606" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_D72871DC.wem</Path>
+						</File>
+						<File Id="573020277" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_5F54014E.wem</Path>
+						</File>
+						<File Id="778144557" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_6F9518CF.wem</Path>
+						</File>
+						<File Id="1069736556" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_FDD39D40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="116178158" Name="Footstep_Event" ObjectPath="\Events\Default Work Unit\Footstep_Event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1283900866" Name="Footstep_Trigger" ObjectPath="\Triggers\Default Work Unit\Footstep_Trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3890470156" Name="grass_event" ObjectPath="\Events\Default Work Unit\biome events\grass_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2830206093" Name="gravel_event" ObjectPath="\Events\Default Work Unit\biome events\gravel_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2183782904" Name="melody_event" ObjectPath="\Events\Default Work Unit\melody_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="182675391" Language="SFX">
+							<ShortName>melody.mid</ShortName>
+							<Path>SFX\melody_53187643.wmid</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="656197135" Name="metal_event" ObjectPath="\Events\Default Work Unit\biome events\metal_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="712465182" Name="pull_carrot" ObjectPath="\Events\Default Work Unit\pull_carrot" DurationType="OneShot" DurationMin="0.187592" DurationMax="0.282955">
+					<IncludedMemoryFiles>
+						<File Id="314218332" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_F3A85247.wem</Path>
+						</File>
+						<File Id="751037103" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_AA3CB29B.wem</Path>
+						</File>
+						<File Id="1003667622" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_C93D254E.wem</Path>
+						</File>
+						<File Id="1005844554" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_DC230014.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1380921214" Name="sand_event" ObjectPath="\Events\Default Work Unit\biome events\sand_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="695265601" Name="snow_event" ObjectPath="\Events\Default Work Unit\biome events\snow_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1210888417" Name="speaker_no_occlusion_event" ObjectPath="\Events\Default Work Unit\speaker_no_occlusion_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2452206122" Name="false" ObjectPath="\States\Default Work Unit\speaker_occluded\false"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3091691547" Name="speaker_occlusion_event" ObjectPath="\Events\Default Work Unit\speaker_occlusion_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3053630529" Name="true" ObjectPath="\States\Default Work Unit\speaker_occluded\true"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3309131369" Name="stone_event" ObjectPath="\Events\Default Work Unit\biome events\stone_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2090041243" Name="wood_event" ObjectPath="\Events\Default Work Unit\biome events\wood_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+					</ActionTrigger>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1217018071" Name="speaker_listener_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_listener_angle"/>
+				<GameParameter Id="1860277923" Name="bee_distance" ObjectPath="\Game Parameters\Default Work Unit\bee_distance"/>
+				<GameParameter Id="1954255994" Name="speaker_distance" ObjectPath="\Game Parameters\Default Work Unit\speaker_distance"/>
+				<GameParameter Id="2295050251" Name="speaker_emitter_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_emitter_angle"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\life_state\dead">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2452206122" Name="false" ObjectPath="\States\Default Work Unit\speaker_occluded\false">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3053630529" Name="true" ObjectPath="\States\Default Work Unit\speaker_occluded\true">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+				<Trigger Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+				<Trigger Id="1283900866" Name="Footstep_Trigger" ObjectPath="\Triggers\Default Work Unit\Footstep_Trigger"/>
+				<Trigger Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+				<Trigger Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+				<Trigger Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+				<Trigger Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+				<Trigger Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="2385628198" Language="SFX" Hash="2139113618">
+			<ObjectPath>\SoundBanks\Default Work Unit\footsteps</ObjectPath>
+			<ShortName>footsteps</ShortName>
+			<Path>footsteps.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3218625211" Name="dirt_event" ObjectPath="\Events\Default Work Unit\biome events\dirt_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3890470156" Name="grass_event" ObjectPath="\Events\Default Work Unit\biome events\grass_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2830206093" Name="gravel_event" ObjectPath="\Events\Default Work Unit\biome events\gravel_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="656197135" Name="metal_event" ObjectPath="\Events\Default Work Unit\biome events\metal_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1380921214" Name="sand_event" ObjectPath="\Events\Default Work Unit\biome events\sand_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="695265601" Name="snow_event" ObjectPath="\Events\Default Work Unit\biome events\snow_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3309131369" Name="stone_event" ObjectPath="\Events\Default Work Unit\biome events\stone_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2090041243" Name="wood_event" ObjectPath="\Events\Default Work Unit\biome events\wood_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+					</ActionTrigger>
+				</Event>
+			</IncludedEvents>
+			<Triggers>
+				<Trigger Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+				<Trigger Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+				<Trigger Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+				<Trigger Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+				<Trigger Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+				<Trigger Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+				<Trigger Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1184755489">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1545069278" Name="Buzz" ObjectPath="\Events\Default Work Unit\Buzz" MaxAttenuation="10.000000" DurationType="Unknown"/>
+				<Event Id="3150300228" Name="death_event" ObjectPath="\Events\Default Work Unit\death_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\life_state\dead"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3218625211" Name="dirt_event" ObjectPath="\Events\Default Work Unit\biome events\dirt_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1955262086" Name="drum_and_bass_event" ObjectPath="\Events\Default Work Unit\drum_and_bass_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="47941933" Language="SFX">
+							<ShortName>wood2.wav</ShortName>
+							<Path>SFX\wood2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="65677158" Language="SFX">
+							<ShortName>grass1.wav</ShortName>
+							<Path>SFX\grass1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="145188559" Language="SFX">
+							<ShortName>snow2.wav</ShortName>
+							<Path>SFX\snow2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="168900262" Language="SFX">
+							<ShortName>snow1.wav</ShortName>
+							<Path>SFX\snow1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="241528565" Language="SFX">
+							<ShortName>wood3.wav</ShortName>
+							<Path>SFX\wood3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="306226971" Language="SFX">
+							<ShortName>stone1.wav</ShortName>
+							<Path>SFX\stone1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="437513822" Language="SFX">
+							<ShortName>metal1.wav</ShortName>
+							<Path>SFX\metal1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="490932561" Language="SFX">
+							<ShortName>metal2.wav</ShortName>
+							<Path>SFX\metal2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="532095538" Language="SFX">
+							<ShortName>metal3.wav</ShortName>
+							<Path>SFX\metal3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="568836554" Language="SFX">
+							<ShortName>wood1.wav</ShortName>
+							<Path>SFX\wood1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="595856568" Language="SFX">
+							<ShortName>sand1.wav</ShortName>
+							<Path>SFX\sand1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="685919870" Language="SFX">
+							<ShortName>stone3.wav</ShortName>
+							<Path>SFX\stone3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="699039222" Language="SFX">
+							<ShortName>gravel1.wav</ShortName>
+							<Path>SFX\gravel1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="726876384" Language="SFX">
+							<ShortName>sand3.wav</ShortName>
+							<Path>SFX\sand3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="954675299" Language="SFX">
+							<ShortName>snow3.wav</ShortName>
+							<Path>SFX\snow3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="981059498" Language="SFX">
+							<ShortName>drum.wav</ShortName>
+							<Path>SFX\drum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1006991420" Language="SFX">
+							<ShortName>gravel2.wav</ShortName>
+							<Path>SFX\gravel2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013458678" Language="SFX">
+							<ShortName>grass3.wav</ShortName>
+							<Path>SFX\grass3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1038956717" Language="SFX">
+							<ShortName>sand2.wav</ShortName>
+							<Path>SFX\sand2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1049264431" Language="SFX">
+							<ShortName>stone2.wav</ShortName>
+							<Path>SFX\stone2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1056488601" Language="SFX">
+							<ShortName>gravel3.wav</ShortName>
+							<Path>SFX\gravel3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1066184890" Language="SFX">
+							<ShortName>bass.wav</ShortName>
+							<Path>SFX\bass_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3024221945" Name="eat_carrot" ObjectPath="\Events\Default Work Unit\eat_carrot" DurationType="OneShot" DurationMin="1.022484" DurationMax="1.525943">
+					<IncludedMemoryFiles>
+						<File Id="352249606" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_D72871DC.wem</Path>
+						</File>
+						<File Id="573020277" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_5F54014E.wem</Path>
+						</File>
+						<File Id="778144557" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_6F9518CF.wem</Path>
+						</File>
+						<File Id="1069736556" Language="SFX">
+							<ShortName>carrot crunching.wav</ShortName>
+							<Path>SFX\carrot crunching_FDD39D40.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="116178158" Name="Footstep_Event" ObjectPath="\Events\Default Work Unit\Footstep_Event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1283900866" Name="Footstep_Trigger" ObjectPath="\Triggers\Default Work Unit\Footstep_Trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3890470156" Name="grass_event" ObjectPath="\Events\Default Work Unit\biome events\grass_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2830206093" Name="gravel_event" ObjectPath="\Events\Default Work Unit\biome events\gravel_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2183782904" Name="melody_event" ObjectPath="\Events\Default Work Unit\melody_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="182675391" Language="SFX">
+							<ShortName>melody.mid</ShortName>
+							<Path>SFX\melody_53187643.wmid</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="656197135" Name="metal_event" ObjectPath="\Events\Default Work Unit\biome events\metal_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="712465182" Name="pull_carrot" ObjectPath="\Events\Default Work Unit\pull_carrot" DurationType="OneShot" DurationMin="0.187592" DurationMax="0.282955">
+					<IncludedMemoryFiles>
+						<File Id="314218332" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_F3A85247.wem</Path>
+						</File>
+						<File Id="751037103" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_AA3CB29B.wem</Path>
+						</File>
+						<File Id="1003667622" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_C93D254E.wem</Path>
+						</File>
+						<File Id="1005844554" Language="SFX">
+							<ShortName>carrot pulling.wav</ShortName>
+							<Path>SFX\carrot pulling_DC230014.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1380921214" Name="sand_event" ObjectPath="\Events\Default Work Unit\biome events\sand_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="695265601" Name="snow_event" ObjectPath="\Events\Default Work Unit\biome events\snow_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1210888417" Name="speaker_no_occlusion_event" ObjectPath="\Events\Default Work Unit\speaker_no_occlusion_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2452206122" Name="false" ObjectPath="\States\Default Work Unit\speaker_occluded\false"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3091691547" Name="speaker_occlusion_event" ObjectPath="\Events\Default Work Unit\speaker_occlusion_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3053630529" Name="true" ObjectPath="\States\Default Work Unit\speaker_occluded\true"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3309131369" Name="stone_event" ObjectPath="\Events\Default Work Unit\biome events\stone_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2090041243" Name="wood_event" ObjectPath="\Events\Default Work Unit\biome events\wood_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+					</ActionTrigger>
+				</Event>
+			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="4122393694" Name="cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\cave"/>
+			</IncludedAuxBusses>
+			<IncludedMemoryFiles>
+				<File Id="47941933" Language="SFX">
+					<ShortName>wood2.wav</ShortName>
+					<Path>SFX\wood2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="65677158" Language="SFX">
+					<ShortName>grass1.wav</ShortName>
+					<Path>SFX\grass1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="145188559" Language="SFX">
+					<ShortName>snow2.wav</ShortName>
+					<Path>SFX\snow2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="168900262" Language="SFX">
+					<ShortName>snow1.wav</ShortName>
+					<Path>SFX\snow1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="182675391" Language="SFX">
+					<ShortName>melody.mid</ShortName>
+					<Path>SFX\melody_53187643.wmid</Path>
+				</File>
+				<File Id="241528565" Language="SFX">
+					<ShortName>wood3.wav</ShortName>
+					<Path>SFX\wood3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="306226971" Language="SFX">
+					<ShortName>stone1.wav</ShortName>
+					<Path>SFX\stone1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="314218332" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_F3A85247.wem</Path>
+				</File>
+				<File Id="352249606" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_D72871DC.wem</Path>
+				</File>
+				<File Id="437513822" Language="SFX">
+					<ShortName>metal1.wav</ShortName>
+					<Path>SFX\metal1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="490932561" Language="SFX">
+					<ShortName>metal2.wav</ShortName>
+					<Path>SFX\metal2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="532095538" Language="SFX">
+					<ShortName>metal3.wav</ShortName>
+					<Path>SFX\metal3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="568836554" Language="SFX">
+					<ShortName>wood1.wav</ShortName>
+					<Path>SFX\wood1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="573020277" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_5F54014E.wem</Path>
+				</File>
+				<File Id="595856568" Language="SFX">
+					<ShortName>sand1.wav</ShortName>
+					<Path>SFX\sand1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="685919870" Language="SFX">
+					<ShortName>stone3.wav</ShortName>
+					<Path>SFX\stone3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="699039222" Language="SFX">
+					<ShortName>gravel1.wav</ShortName>
+					<Path>SFX\gravel1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="726876384" Language="SFX">
+					<ShortName>sand3.wav</ShortName>
+					<Path>SFX\sand3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="751037103" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_AA3CB29B.wem</Path>
+				</File>
+				<File Id="778144557" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_6F9518CF.wem</Path>
+				</File>
+				<File Id="954675299" Language="SFX">
+					<ShortName>snow3.wav</ShortName>
+					<Path>SFX\snow3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="981059498" Language="SFX">
+					<ShortName>drum.wav</ShortName>
+					<Path>SFX\drum_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1003667622" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_C93D254E.wem</Path>
+				</File>
+				<File Id="1005844554" Language="SFX">
+					<ShortName>carrot pulling.wav</ShortName>
+					<Path>SFX\carrot pulling_DC230014.wem</Path>
+				</File>
+				<File Id="1006991420" Language="SFX">
+					<ShortName>gravel2.wav</ShortName>
+					<Path>SFX\gravel2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1013458678" Language="SFX">
+					<ShortName>grass3.wav</ShortName>
+					<Path>SFX\grass3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1038956717" Language="SFX">
+					<ShortName>sand2.wav</ShortName>
+					<Path>SFX\sand2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1049264431" Language="SFX">
+					<ShortName>stone2.wav</ShortName>
+					<Path>SFX\stone2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1056488601" Language="SFX">
+					<ShortName>gravel3.wav</ShortName>
+					<Path>SFX\gravel3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1066184890" Language="SFX">
+					<ShortName>bass.wav</ShortName>
+					<Path>SFX\bass_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1069736556" Language="SFX">
+					<ShortName>carrot crunching.wav</ShortName>
+					<Path>SFX\carrot crunching_FDD39D40.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1217018071" Name="speaker_listener_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_listener_angle"/>
+				<GameParameter Id="1860277923" Name="bee_distance" ObjectPath="\Game Parameters\Default Work Unit\bee_distance"/>
+				<GameParameter Id="1954255994" Name="speaker_distance" ObjectPath="\Game Parameters\Default Work Unit\speaker_distance"/>
+				<GameParameter Id="2295050251" Name="speaker_emitter_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_emitter_angle"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\life_state\dead">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2452206122" Name="false" ObjectPath="\States\Default Work Unit\speaker_occluded\false">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3053630529" Name="true" ObjectPath="\States\Default Work Unit\speaker_occluded\true">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+				<Trigger Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+				<Trigger Id="1283900866" Name="Footstep_Trigger" ObjectPath="\Triggers\Default Work Unit\Footstep_Trigger"/>
+				<Trigger Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+				<Trigger Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+				<Trigger Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+				<Trigger Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+				<Trigger Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="1382002656">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1955262086" Name="drum_and_bass_event" ObjectPath="\Events\Default Work Unit\drum_and_bass_event" DurationType="Infinite"/>
+				<Event Id="2183782904" Name="melody_event" ObjectPath="\Events\Default Work Unit\melody_event" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="47941933" Language="SFX">
+					<ShortName>wood2.wav</ShortName>
+					<Path>SFX\wood2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="65677158" Language="SFX">
+					<ShortName>grass1.wav</ShortName>
+					<Path>SFX\grass1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="145188559" Language="SFX">
+					<ShortName>snow2.wav</ShortName>
+					<Path>SFX\snow2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="168900262" Language="SFX">
+					<ShortName>snow1.wav</ShortName>
+					<Path>SFX\snow1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="182675391" Language="SFX">
+					<ShortName>melody.mid</ShortName>
+					<Path>SFX\melody_53187643.wmid</Path>
+				</File>
+				<File Id="241528565" Language="SFX">
+					<ShortName>wood3.wav</ShortName>
+					<Path>SFX\wood3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="306226971" Language="SFX">
+					<ShortName>stone1.wav</ShortName>
+					<Path>SFX\stone1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="437513822" Language="SFX">
+					<ShortName>metal1.wav</ShortName>
+					<Path>SFX\metal1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="490932561" Language="SFX">
+					<ShortName>metal2.wav</ShortName>
+					<Path>SFX\metal2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="532095538" Language="SFX">
+					<ShortName>metal3.wav</ShortName>
+					<Path>SFX\metal3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="568836554" Language="SFX">
+					<ShortName>wood1.wav</ShortName>
+					<Path>SFX\wood1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="595856568" Language="SFX">
+					<ShortName>sand1.wav</ShortName>
+					<Path>SFX\sand1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="685919870" Language="SFX">
+					<ShortName>stone3.wav</ShortName>
+					<Path>SFX\stone3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="699039222" Language="SFX">
+					<ShortName>gravel1.wav</ShortName>
+					<Path>SFX\gravel1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="726876384" Language="SFX">
+					<ShortName>sand3.wav</ShortName>
+					<Path>SFX\sand3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="954675299" Language="SFX">
+					<ShortName>snow3.wav</ShortName>
+					<Path>SFX\snow3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="981059498" Language="SFX">
+					<ShortName>drum.wav</ShortName>
+					<Path>SFX\drum_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1006991420" Language="SFX">
+					<ShortName>gravel2.wav</ShortName>
+					<Path>SFX\gravel2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1013458678" Language="SFX">
+					<ShortName>grass3.wav</ShortName>
+					<Path>SFX\grass3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1038956717" Language="SFX">
+					<ShortName>sand2.wav</ShortName>
+					<Path>SFX\sand2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1049264431" Language="SFX">
+					<ShortName>stone2.wav</ShortName>
+					<Path>SFX\stone2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1056488601" Language="SFX">
+					<ShortName>gravel3.wav</ShortName>
+					<Path>SFX\gravel3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1066184890" Language="SFX">
+					<ShortName>bass.wav</ShortName>
+					<Path>SFX\bass_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1217018071" Name="speaker_listener_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_listener_angle"/>
+				<GameParameter Id="1954255994" Name="speaker_distance" ObjectPath="\Game Parameters\Default Work Unit\speaker_distance"/>
+				<GameParameter Id="2295050251" Name="speaker_emitter_angle" ObjectPath="\Game Parameters\Default Work Unit\speaker_emitter_angle"/>
+			</GameParameters>
+			<Triggers>
+				<Trigger Id="331148357" Name="snow_trigger" ObjectPath="\Triggers\Default Work Unit\snow_trigger"/>
+				<Trigger Id="1158204429" Name="stone_trigger" ObjectPath="\Triggers\Default Work Unit\stone_trigger"/>
+				<Trigger Id="1283900866" Name="Footstep_Trigger" ObjectPath="\Triggers\Default Work Unit\Footstep_Trigger"/>
+				<Trigger Id="1485923599" Name="wood_trigger" ObjectPath="\Triggers\Default Work Unit\wood_trigger"/>
+				<Trigger Id="2115218395" Name="metal_trigger" ObjectPath="\Triggers\Default Work Unit\metal_trigger"/>
+				<Trigger Id="2657709170" Name="sand_trigger" ObjectPath="\Triggers\Default Work Unit\sand_trigger"/>
+				<Trigger Id="2859233241" Name="gravel_trigger" ObjectPath="\Triggers\Default Work Unit\gravel_trigger"/>
+				<Trigger Id="4196185040" Name="grass_trigger" ObjectPath="\Triggers\Default Work Unit\grass_trigger"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

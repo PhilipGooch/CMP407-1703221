@@ -1,0 +1,6 @@
+WASD 		- Movement
+Space 		- Jump
+Left Click 	- Pickup Carrot
+Right Click 	- Eat Carrot
+F 		- Die
+Escape		- Exit

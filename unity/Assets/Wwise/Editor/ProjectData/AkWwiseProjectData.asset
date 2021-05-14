@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1b0efb3b6362748b7f96d7ba0d4f34, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 68d90cd478385d49823c5dd3be781cc5
+    GuidInternal: 
+    m_lastTime: -8585942572879959456
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c02e0ff2632e92469db2283887b2ba6b
+    GuidInternal: 
+    m_lastTime: -8585935355530485486
+    List:
+    - name: cave
+      guid: b5f889b4f3f97945a95be1c7d550ef0e
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: cave
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\cave
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: aecd410287d8094ead7f4ff0fb46659f
+    GuidInternal: 
+    m_lastTime: -8585936514699704299
+    List:
+    - name: Events
+      guid: 0639ec1390b4fe4ca4918d6aaf59ad98
+      id: 1381315342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Events
+        ObjectType: 7
+      Path: Default Work Unit\Events
+    - name: footsteps
+      guid: af5f51814aed0d4a824c6e32106939ca
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: footsteps
+        ObjectType: 7
+      Path: Default Work Unit\footsteps
+    - name: main
+      guid: ef0404a40333c44eb12bb6fd5e198958
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: main
+        ObjectType: 7
+      Path: Default Work Unit\main
+    - name: Music
+      guid: 9c36969689a5ce43844680811482b65a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: SFX
+      guid: 5e265fa6843556458e26bb3a5a65435d
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      Path: Default Work Unit\SFX
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 34b819c84d4c8e498ae55797021fbf31
+    GuidInternal: 
+    m_lastTime: -8585935584006080706
+    List:
+    - name: biome events
+      guid: 44ab939f2c891b43918af2cdbde1a78d
+      id: 1142121706
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      Path: Default Work Unit\biome events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Buzz
+      guid: df4c204d99b59c47af3585b07e5167bd
+      id: 1545069278
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Buzz
+        ObjectType: 3
+      Path: Default Work Unit\Buzz
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: death_event
+      guid: 70657dbc942c41429f4acd80296b0aaf
+      id: 3150300228
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: death_event
+        ObjectType: 3
+      Path: Default Work Unit\death_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: dirt_event
+      guid: 76575c0ee8a8a54cbf71cedc9dc08c53
+      id: 3218625211
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: dirt_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\dirt_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: drum_and_bass_event
+      guid: a516ae7e2faf554c820c0a7e1cad08f2
+      id: 1955262086
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: drum_and_bass_event
+        ObjectType: 3
+      Path: Default Work Unit\drum_and_bass_event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: eat_carrot
+      guid: d823dd8c26e4d242973c1a41edd3e8dc
+      id: 3024221945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: eat_carrot
+        ObjectType: 3
+      Path: Default Work Unit\eat_carrot
+      maxAttenuation: 0
+      maxDuration: 1.033497
+      minDuration: 0.601312
+    - name: Footstep
+      guid: d8ddbace1e6dda46a7e9c284261b13aa
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 3
+      Path: Default Work Unit\Footstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Footstep_Event
+      guid: e932ccf458800a4e9e103367c43f0d72
+      id: 116178158
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_Event
+        ObjectType: 3
+      Path: Default Work Unit\Footstep_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: grass_event
+      guid: 10922f8ee7950c4d8d300400dc2c6d97
+      id: 3890470156
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: grass_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\grass_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: gravel_event
+      guid: 991409f611e2294b85aded0d2a9c27cb
+      id: 2830206093
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: gravel_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\gravel_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: melody_event
+      guid: bc31c82f9b399e4688ab6e498acabd9a
+      id: 2183782904
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: melody_event
+        ObjectType: 3
+      Path: Default Work Unit\melody_event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: metal_event
+      guid: fb34370a399a42499d912b2ba2dcf5d2
+      id: 656197135
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: metal_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\metal_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: pull_carrot
+      guid: 60b2b725bfd14e46971edc83f04a7e28
+      id: 712465182
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: pull_carrot
+        ObjectType: 3
+      Path: Default Work Unit\pull_carrot
+      maxAttenuation: 0
+      maxDuration: 0.282955
+      minDuration: 0.187592
+    - name: sand_event
+      guid: 9fa1ba364224f44aa49269b61a02afc9
+      id: 1380921214
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: sand_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\sand_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: snow_event
+      guid: f4bff97312859d49bf243f0380d3dd0c
+      id: 695265601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: snow_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\snow_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: speaker_no_occlusion_event
+      guid: 951c560799593c49a73d0b62049a2cf1
+      id: 1210888417
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_no_occlusion_event
+        ObjectType: 3
+      Path: Default Work Unit\speaker_no_occlusion_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: speaker_occlusion_event
+      guid: 2f8da2efa166fc47976cb59b159010b0
+      id: 3091691547
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_occlusion_event
+        ObjectType: 3
+      Path: Default Work Unit\speaker_occlusion_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stone_event
+      guid: 0bb3385dd01bcf49b54579a3bbb0dbff
+      id: 3309131369
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: stone_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\stone_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: wood_event
+      guid: a9d07c254495b84eacb27a99bb085e71
+      id: 2090041243
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: biome events
+        ObjectType: 4
+      - ElementName: wood_event
+        ObjectType: 3
+      Path: Default Work Unit\biome events\wood_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 233a136ca4363846bc4e54b48bd545db
+    GuidInternal: 
+    m_lastTime: -8585935529231330935
+    List:
+    - name: bee_distance
+      guid: 0877ce4eb22f9649aa00b7be504f887f
+      id: 1860277923
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: bee_distance
+        ObjectType: 13
+      Path: Default Work Unit\bee_distance
+    - name: speaker_distance
+      guid: 38e72a47e8db65499587564f49b7b51a
+      id: 1954255994
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_distance
+        ObjectType: 13
+      Path: Default Work Unit\speaker_distance
+    - name: speaker_emitter_angle
+      guid: 5f77cf553825ef46a5ffbe486352c2e6
+      id: 2295050251
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_emitter_angle
+        ObjectType: 13
+      Path: Default Work Unit\speaker_emitter_angle
+    - name: speaker_listener_angle
+      guid: ff3861671304ad49952dd0c90585151c
+      id: 1217018071
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_listener_angle
+        ObjectType: 13
+      Path: Default Work Unit\speaker_listener_angle
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5143315c285c90448d29af1b272f34c2
+    GuidInternal: 
+    m_lastTime: -8585935591292008533
+    List:
+    - name: cave
+      guid: 3dd618a30eccb44a820fb0cfe3de3c5b
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: cave
+        ObjectType: 9
+      Path: Default Work Unit\cave
+      values:
+      - name: false
+        guid: 5dfa91767905c541b903a7cec6375367
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: false
+          ObjectType: 8
+      - name: None
+        guid: 8783a7bac9ebee4f9be2524580b15ead
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: true
+        guid: 0af798b3cae86b4783149f442996aebb
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: true
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: life_state
+      guid: a6d8860765f0ff4ab4dac6276a912d82
+      id: 707535153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: life_state
+        ObjectType: 9
+      Path: Default Work Unit\life_state
+      values:
+      - name: alive
+        guid: 24e9ea47909c264790d1fd18e4d83087
+        id: 655265632
+        PathAndIcons:
+        - ElementName: alive
+          ObjectType: 8
+      - name: dead
+        guid: 2140456434d932409592a02833239ea1
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: dead
+          ObjectType: 8
+      - name: None
+        guid: fb6b5b2e714f484bb5d48b43d5a2c4ee
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: speaker_occluded
+      guid: a11a118466c66f4284b58dfbf69a67fb
+      id: 3457490076
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: speaker_occluded
+        ObjectType: 9
+      Path: Default Work Unit\speaker_occluded
+      values:
+      - name: false
+        guid: 15b8f1894840d94dad8cc004e2fcb8cb
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: false
+          ObjectType: 8
+      - name: None
+        guid: 000db6e14becb14b866924589ee427a9
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: true
+        guid: a140786755e5c4429206d2c08b6ebc07
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: true
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e4f69deea3c02546a87a3381021dead9
+    GuidInternal: 
+    m_lastTime: -8585941568164649994
+    List:
+    - name: FootstepSurface
+      guid: f7e9ad137b18dc4e9a49f159950441b4
+      id: 466066820
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootstepSurface
+        ObjectType: 11
+      Path: Default Work Unit\FootstepSurface
+      values:
+      - name: Grass
+        guid: 901f3f36e5a13244aafc91df7e26ce0f
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Gravel
+        guid: f7a9d5cef4e19546a5f642137562a4e6
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Gravel
+          ObjectType: 10
+      - name: Metal
+        guid: f902e141f9902841823b17b76d0fa8a3
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Metal
+          ObjectType: 10
+      - name: Sand
+        guid: 016046a58a56974ea563af37142a26af
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Sand
+          ObjectType: 10
+      - name: Snow
+        guid: c7c5208e6690414596e8298cc63ed367
+        id: 787898836
+        PathAndIcons:
+        - ElementName: Snow
+          ObjectType: 10
+      - name: Stone
+        guid: 8a6b4475d3a62a44a62901524fe3ee99
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Stone
+          ObjectType: 10
+      - name: Wood
+        guid: 74d8a19b2ac2f34ca8dbff306b13387b
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 69223b618bdaee4d9c086dd978251cf0
+    GuidInternal: 
+    m_lastTime: -8585941546161543293
+    List:
+    - name: Footstep_Trigger
+      guid: e9d92729ad6bb54fb42d79de4c2e7fb3
+      id: 1283900866
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_Trigger
+        ObjectType: 14
+      Path: Default Work Unit\Footstep_Trigger
+    - name: grass_trigger
+      guid: 3dc180f708cecd4a8790855b7529af7f
+      id: 4196185040
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: grass_trigger
+        ObjectType: 14
+      Path: Default Work Unit\grass_trigger
+    - name: gravel_trigger
+      guid: d1ea5bf939558c4296fcae26d86ef9ac
+      id: 2859233241
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gravel_trigger
+        ObjectType: 14
+      Path: Default Work Unit\gravel_trigger
+    - name: metal_trigger
+      guid: 7b8cbad964a6124bb51385d18381524b
+      id: 2115218395
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: metal_trigger
+        ObjectType: 14
+      Path: Default Work Unit\metal_trigger
+    - name: sand_trigger
+      guid: b382b9d54a33384ebc8d04d7f50cbc62
+      id: 2657709170
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sand_trigger
+        ObjectType: 14
+      Path: Default Work Unit\sand_trigger
+    - name: snow_trigger
+      guid: 4d61801a08ba1947a77e994682c6d239
+      id: 331148357
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snow_trigger
+        ObjectType: 14
+      Path: Default Work Unit\snow_trigger
+    - name: stone_trigger
+      guid: 1dc9cb320304d54eb6d4dfe72d95e75b
+      id: 1158204429
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stone_trigger
+        ObjectType: 14
+      Path: Default Work Unit\stone_trigger
+    - name: wood_trigger
+      guid: 0820f47b8c9e8f4e961847da1f73dcd4
+      id: 1485923599
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: wood_trigger
+        ObjectType: 14
+      Path: Default Work Unit\wood_trigger
+  ExpandedItems:
+  - /CMP407_WwiseProject
+  - /CMP407_WwiseProject/Events
+  - /CMP407_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

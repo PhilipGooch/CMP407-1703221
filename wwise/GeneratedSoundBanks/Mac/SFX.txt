@@ -1,0 +1,53 @@
+Event	ID	Name			Wwise Object Path	Notes
+	712465182	pull_carrot			\Default Work Unit\pull_carrot	
+	1545069278	Buzz			\Default Work Unit\Buzz	
+	3024221945	eat_carrot			\Default Work Unit\eat_carrot	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	707535153	life_state			\Default Work Unit\life_state	
+	3457490076	speaker_occluded			\Default Work Unit\speaker_occluded	
+	4122393694	cave			\Default Work Unit\cave	
+
+State	ID	Name	State Group			Notes
+	655265632	alive	life_state			
+	748895195	None	life_state			
+	2044049779	dead	life_state			
+	748895195	None	speaker_occluded			
+	2452206122	false	speaker_occluded			
+	3053630529	true	speaker_occluded			
+	748895195	None	cave			
+	2452206122	false	cave			
+	3053630529	true	cave			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	14236993	true	speaker_occluded	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+	115798828	dead	life_state	\Actor-Mixer Hierarchy\Default Work Unit\buzz		
+	823089359	dead	life_state	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1217018071	speaker_listener_angle			\Default Work Unit\speaker_listener_angle	
+	1860277923	bee_distance			\Default Work Unit\bee_distance	
+	1954255994	speaker_distance			\Default Work Unit\speaker_distance	
+	2295050251	speaker_emitter_angle			\Default Work Unit\speaker_emitter_angle	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	548923207	Modulator Envelope (Custom)				
+	1001524185	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	165379850	Wwise_Pitch_Shifter_(Custom)	Wwise Pitch Shifter			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	17256672	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\melody\Wwise Synth One	
+	795620446	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\buzz\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	314218332	carrot pulling 2	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot pulling_F3A85247.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 2		37888
+	352249606	carrot crunch 3	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot crunching_D72871DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 3		137416
+	573020277	carrot crunch 1	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot crunching_5F54014E.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\carrot crunch 1		51512
+	751037103	carrot pulling 1	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot pulling_AA3CB29B.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 1		49980
+	778144557	carrot crunch 4	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot crunching_6F9518CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 4		112444
+	1003667622	carrot pulling 3	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot pulling_C93D254E.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 3		37796
+	1005844554	carrot pulling 4	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot pulling_DC230014.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 4		33156
+	1069736556	carrot crunch 2	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\carrot crunching_FDD39D40.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 2		162388
+

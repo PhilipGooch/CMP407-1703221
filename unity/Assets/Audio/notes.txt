@@ -1,0 +1,148 @@
+101-01 integrating a sound:
+--- linking sfx sounds to events from unity.
+--- carrot sounds are foley effects created by myself.
+--- buzz sound is created with wwise synthesisor, manipulating raw sound waves.
+--- drum beat (music) is created by myself using online software called drumbit (https://drumbit.app/)
+--- footstep sounds are ripped directly from minecraft vanilla by recording gameplay.
+
+101-02 using source editor:
+--- use source editor to seperate carrot sounds instead of audacity.
+--- state only selected portions will be used in soundbank to save on memory.
+--- using fade out to avoid abrupt stop to sound effect.
+
+101-03 using randomization:
+--- random pitch and volumes for carrot crunch sound effects. 
+--- random shuffle used to not have same sound repeating.
+--- state using pitch in parent to optimize work flow.
+--- using random container for carrot pulling sounds.
+
+101-04 sequencing sounds:
+--- using sequence container to have first loud crunch be the first every time, then the random container (child of sequence container) will pick random later crunches.
+--- using continuous play mode to play whoe sequence.
+--- using transitions to reduce delay between crunch sounds.
+
+101-05 understanding hierarchies:
+--- using parent containers to adjust variables for all children saves time and allows for all children to be affected by the same game syncs.
+--- can easily feed all child objects into audio busses, that can in turn edit all audio effects on that bus.
+--- properties can be overriden from their inherited parent's values.
+
+101-06 using switches:
+--- initially was using sfx switches and switch containder for footsteps, sending the appropriate switch event for which surface i was on. this functionality is still in the wwise project, just disabled.
+--- thought it would be cool to have footsteps on the beat. inspired by the game "Ape Out" and its reactive music system.
+--- made use of stingers. will go into later...
+
+101-07 game parameters:
+--- real time parameter controls.
+--- using the distance from the bee to the player to manipulate pitch of buzz. creates a kind of doplar effect as the bee flys by.
+
+101-08 states:
+--- dead/alive. 
+--- map drum beat and buzz to states so they fade with death animation.
+
+101-09 attenuations:
+--- attenuation is used to set the volume of the bee's buzz sound dependant on distance. fades logarithmically so it is most noticable when close and not annoying at a distance.
+--- not using cone attenuation as it is low frequency that travels through objects easily, like the players head.
+
+101-10 3d position automation:
+--- using 3d spatialization relative to the position of the bee gameobject passed with the buzz event.
+--- known as litener relative routing.
+
+101-11 balance-fade speaker panning:
+--- used to offset sound based on a sound effect that doesnt have an in game position.
+xxx use position automation for carrot and dirt particles.
+
+101-12 effects:
+--- applying reverbaration to sound effects when playing from inside the cave to make them sound echoey. achieved through custom auxilary bus and game defined auxialry sends. this is an cpu efficient way of handling applying the same effects to multiple sounds.
+--- use Real Time Parameter Control (RTPC) to manipulate pitch of bee's buzzing sound dependant on the distance it is from the player. as it flies past it creates i kind of doppler effect.
+--- use pitch shifter on initial buzz sound instead of manually increasing frequency as it gave a nicer effect (not really sure why it is different with a wave that does not have a fixed duration...). this effect was baked into the sound before runtime to increase cpu efficiency by selecting "render". 
+xxx occlusion from speakers (low pass filter)
+xxx 
+
+101-13 using soundcaster:
+>-- soundcaster was very usefull when setting up stingers for footsteps with cues, triggered by different events. demo.
+
+101-14 mixing desk:
+>xx useful to see multiple effects together and tweak bus variables. demo.
+
+101-15 optimizing memory usage:
+xxx using seperate sound banks for footsteps and music/buzz sound. footsteps only used in game not menu.
+xxx converted sound effects using vorbis compression. ( state why choosing specific formats. industry standard)
+--- original footstep sfx sounds not included in build but still there if needed later.
+xxx no need to make use of streaming as no large sound files. (could add large ambience file for marks, different ambience in different zones?)
+
+101-16 processor optimization:
+>-- not playing sounds under a certain volume that would likely get drowned out anyway. demo.
+--- setting the maximum amount of "voice" channels that can be played simultaneously. this project should not hit the maximum but handling the case that the project grows.
+--- less priority is given to buzz sound based on distance. if it is so quiet it can barely be heard it is more important to hear some other sound effect.
+--- buzz sound is sent to virtual voice if dropped so if it comes into range again it will play from a position as if it had not stopped. (doesnt really matter for drone sound but would be usefull for more complex sound or music)
+--- music priority is set very high so as not to be interupted, breaking emersion.
+
+
+
+
+----------------------------------------------
+
+
+- own sounds
+	- carrot pull and chomp
+	- buzz with synth
+	- drum beat with 3rd party software
+- 3 real time audio effects. (coded?) (use wwise plugin api...) (week 6)
+	- bee pitch changing with distance
+	- footstep stingers
+	x occlusion of buzz
+	x echo in cave
+- compression formats (week 4)
+	- vorbis
+	x opis for larger files? 
+	x format for streamed music
+	- explain other techniques for saving space
+- middleware
+	- wwise
+- dynamic digital music (create ambiance for different zones with online tool?) (footsteps are actually part of music) (week 8 and 10)
+	- footstep stingers
+- audio synthesis (coded?)
+	- buzz sound created with wwise synthesiser
+- spatial audio
+	- bee buzzing around
+	- attenuation based on distance.
+	- bee pitch changing with distance
+- dynamic audio
+	- audio changind depending on what biome you are in
+
+
+
+
+
+
+
+
+----------------------------------------------
+
+
+
+
+there is a stingers switch but was unable to send individual stinger switch events. workaround was to send 
+stingers switch for footsteps on different surfaces.
+switches for different sound effects. carrot crunch and pull from ground.
+switch container containing sound effects.
+triggers for activationg stingers, triggered by events
+stingers for footsteps on beat...
+
+
+synthesis:
+for creating bee buzzing sound.
+using an oscillator to generate a square shaped wave for a harsh, piercing sound. considered saw shape but sounded too electric.
+made the wave low frequency (35Hz) to hear the individual beats of the bee's wings.
+changed the timbre of the oscilator by changing its pulse width so that the wave became asymetrical, creating a drone like effect.	
+used a wwise pitch shifter to adjust the pitch of the audio.
+
+
+ambience fading into each other depending on biome
+
+a low pass filter could be used for the buzz sound to filter out potential higher pitch frequencies as low frequency sound travels further.
+
+could use low pass filters for occlusion. (sound hidden behind obstacles)
+
+create envelope and filter
+

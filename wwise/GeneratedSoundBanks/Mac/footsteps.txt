@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	656197135	metal_event			\Default Work Unit\biome events\metal_event	
+	695265601	snow_event			\Default Work Unit\biome events\snow_event	
+	1380921214	sand_event			\Default Work Unit\biome events\sand_event	
+	2090041243	wood_event			\Default Work Unit\biome events\wood_event	
+	2830206093	gravel_event			\Default Work Unit\biome events\gravel_event	
+	3218625211	dirt_event			\Default Work Unit\biome events\dirt_event	
+	3309131369	stone_event			\Default Work Unit\biome events\stone_event	
+	3890470156	grass_event			\Default Work Unit\biome events\grass_event	
+

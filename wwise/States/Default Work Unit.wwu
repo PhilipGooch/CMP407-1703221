@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C314351-5C28-4490-8D29-AF1B272F34C2}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5C314351-5C28-4490-8D29-AF1B272F34C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="life_state" ID="{0786D8A6-F065-4AFF-B4DA-C6276A912D82}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{2E5B6BFB-4F71-4B48-B5D4-8B43D5A2C4EE}"/>
+						<State Name="alive" ID="{47EAE924-9C90-4726-90D1-FD18E4D83087}"/>
+						<State Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="alive" ID="{47EAE924-9C90-4726-90D1-FD18E4D83087}"/>
+							<EndState Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+							<EndState Name="alive" ID="{47EAE924-9C90-4726-90D1-FD18E4D83087}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="cave" ID="{A318D63D-CC0E-4AB4-820F-B0CFE3DE3C5B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{BAA78387-EBC9-4FEE-9BE2-524580B15EAD}"/>
+						<State Name="true" ID="{B398F70A-E8CA-476B-8314-9F442996AEBB}"/>
+						<State Name="false" ID="{7691FA5D-0579-41C5-B903-A7CEC6375367}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="false" ID="{7691FA5D-0579-41C5-B903-A7CEC6375367}"/>
+							<EndState Name="true" ID="{B398F70A-E8CA-476B-8314-9F442996AEBB}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="true" ID="{B398F70A-E8CA-476B-8314-9F442996AEBB}"/>
+							<EndState Name="false" ID="{7691FA5D-0579-41C5-B903-A7CEC6375367}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="speaker_occluded" ID="{84111AA1-C666-426F-84B5-8DFBF69A67FB}">
+					<ChildrenList>
+						<State Name="None" ID="{E1B60D00-EC4B-4BB1-8669-24589EE427A9}"/>
+						<State Name="true" ID="{677840A1-E555-42C4-9206-D2C08B6EBC07}"/>
+						<State Name="false" ID="{89F1B815-4048-4DD9-AD8C-C004E2FCB8CB}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="true" ID="{677840A1-E555-42C4-9206-D2C08B6EBC07}"/>
+							<EndState Name="false" ID="{89F1B815-4048-4DD9-AD8C-C004E2FCB8CB}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="false" ID="{89F1B815-4048-4DD9-AD8C-C004E2FCB8CB}"/>
+							<EndState Name="true" ID="{677840A1-E555-42C4-9206-D2C08B6EBC07}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

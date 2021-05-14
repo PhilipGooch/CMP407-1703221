@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86DDD02D-CC42-49C6-B46D-56786BB1545C}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{86DDD02D-CC42-49C6-B46D-56786BB1545C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music Test" ID="{B087650A-1BC2-4964-BBD2-0E924EAB45E3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="melody container" ID="{3359C85B-D43D-4266-9565-B682D366E600}" WorkUnitID="{383D1440-9DBE-474B-A084-5602CCBDE8B3}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="speaker_emitter_angle" ID="{55CF775F-2538-46EF-A5FF-BE486352C2E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="speaker_distance" ID="{472AE738-DBE8-4965-9587-564F49B7B51A}"/>
+							<Value>25</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="bee_distance" ID="{4ECE7708-2FB2-4996-AA00-B7BE504F887F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="speaker_listener_angle" ID="{676138FF-0413-49AD-952D-D0C90585151C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{E1B60D00-EC4B-4BB1-8669-24589EE427A9}"/>
+						<CurrentStateRef Name="None" ID="{BAA78387-EBC9-4FEE-9BE2-524580B15EAD}"/>
+						<CurrentStateRef Name="None" ID="{2E5B6BFB-4F71-4B48-B5D4-8B43D5A2C4EE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{363F1F90-A1E5-4432-AAFC-91DF7E26CE0F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="carrots" ID="{FA89F2C6-1898-4BB0-9841-0597AE6AB3BD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="eat_carrot" ID="{8CDD23D8-E426-42D2-973C-1A41EDD3E8DC}" WorkUnitID="{C819B834-4C4D-498E-8AE5-5797021FBF31}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="bee_distance" ID="{4ECE7708-2FB2-4996-AA00-B7BE504F887F}"/>
+							<Value>4.67741935483871</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{363F1F90-A1E5-4432-AAFC-91DF7E26CE0F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

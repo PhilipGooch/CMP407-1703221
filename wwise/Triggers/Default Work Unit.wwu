@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}" SchemaVersion="97">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{613B2269-DA8B-4DEE-9C08-6DD978251CF0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Footstep_Trigger" ID="{2927D9E9-6BAD-4FB5-B42D-79DE4C2E7FB3}"/>
+				<Trigger Name="grass_trigger" ID="{F780C13D-CE08-4ACD-8790-855B7529AF7F}"/>
+				<Trigger Name="gravel_trigger" ID="{F95BEAD1-5539-428C-96FC-AE26D86EF9AC}"/>
+				<Trigger Name="metal_trigger" ID="{D9BA8C7B-A664-4B12-B513-85D18381524B}"/>
+				<Trigger Name="sand_trigger" ID="{D5B982B3-334A-4E38-BC8D-04D7F50CBC62}"/>
+				<Trigger Name="snow_trigger" ID="{1A80614D-BA08-4719-A77E-994682C6D239}"/>
+				<Trigger Name="wood_trigger" ID="{7BF42008-9E8C-4E8F-9618-47DA1F73DCD4}"/>
+				<Trigger Name="stone_trigger" ID="{32CBC91D-0403-4ED5-B6D4-DFE72D95E75B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

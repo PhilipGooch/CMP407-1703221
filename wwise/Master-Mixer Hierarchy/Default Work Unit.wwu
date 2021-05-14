@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{E2C0149C-B8B1-42CB-8C93-FE3B2E15E4D5}" WorkUnitID="{131789FB-6026-481B-BF7A-54F48AABFA5A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="cave" ID="{B489F8B5-F9F3-4579-A95B-E1C7D550EF0E}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

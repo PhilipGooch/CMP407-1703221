@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FCA560C0-F365-4CBD-A81A-12105D4E3C99}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Footstep" ID="{FD53D4F1-9B9F-475C-9B5C-5A30C31EF342}" ShortID="995668947">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0D0571C6-268A-4353-899C-0B802405B659}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Stone" ID="{75446B8A-A6D3-442A-A629-01524FE3EE99}" WorkUnitID="{EE9DF6E4-C0A3-4625-A87A-3381021DEAD9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="FootstepSurface" ID="{13ADE9F7-187B-4EDC-9A49-F159950441B4}" WorkUnitID="{EE9DF6E4-C0A3-4625-A87A-3381021DEAD9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Grass" ID="{038C2F3A-1E8E-49EB-A125-8326812211DB}" ShortID="522599636">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F5C49CEE-2574-4F1F-899D-7521F062B7EA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="202"/>
+													<Property Name="Min" Type="Real64" Value="-177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="grass1" ID="{38520773-9852-4FF7-A472-E2BF93171BF4}" ShortID="141008090">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{490D8DE7-020E-4B2A-9DAA-DCA56FF2D8A6}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="grass1" ID="{C9A61118-F312-46FE-BBD9-1ED3DCB5A975}">
+											<Language>SFX</Language>
+											<AudioFile>grass1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264756484"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="grass1" ID="{C9A61118-F312-46FE-BBD9-1ED3DCB5A975}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="grass2" ID="{48248FAC-79C3-4007-9BB1-D0BF877F52F0}" ShortID="593418643">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C5613649-628E-4AE6-90EA-D61843A9B03F}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="grass2" ID="{0CE101B7-F867-4DB7-B69F-F7190F34C008}">
+											<Language>SFX</Language>
+											<AudioFile>grass2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="194682088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="grass2" ID="{0CE101B7-F867-4DB7-B69F-F7190F34C008}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="grass3" ID="{2AA50F04-BBA4-43F7-93F8-D6435DB0D7D7}" ShortID="848723868">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5F3C358A-E3AB-4D4A-BDD7-D8B6D98EF6A5}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="grass3" ID="{CB3EAD01-4665-4649-8EC7-067246404C24}">
+											<Language>SFX</Language>
+											<AudioFile>grass3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771476925"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="grass3" ID="{CB3EAD01-4665-4649-8EC7-067246404C24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Metal" ID="{BE02CE64-817F-4211-B066-0FA271E97BF1}" ShortID="270848728">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D2309756-834D-421E-AEA6-6AD87303D7E1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-76"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="metal1" ID="{A02A38C3-84AD-472C-827A-3ED2985D362E}" ShortID="239109781">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="metal1" ID="{73EB887C-409B-4CE9-A55B-76C2128497FF}">
+											<Language>SFX</Language>
+											<AudioFile>metal1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="445085403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="metal1" ID="{73EB887C-409B-4CE9-A55B-76C2128497FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="metal2" ID="{D01705E8-CDDC-4677-A739-826EA2C5573C}" ShortID="641862509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="metal2" ID="{790F6826-C1F3-4E65-A56B-3F57011339BE}">
+											<Language>SFX</Language>
+											<AudioFile>metal2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376048424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="metal2" ID="{790F6826-C1F3-4E65-A56B-3F57011339BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="metal3" ID="{36675DD4-DFB2-4B0A-A3F9-604E200EFBC2}" ShortID="529642294">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="metal3" ID="{2413BA60-67B0-4ED0-9076-D1D5AA975918}">
+											<Language>SFX</Language>
+											<AudioFile>metal3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519491066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="metal3" ID="{2413BA60-67B0-4ED0-9076-D1D5AA975918}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Gravel" ID="{9DE2E83F-18D7-42A0-BC2B-722D98CB8DCD}" ShortID="930028832">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{312DCFF2-2304-4A55-9446-36B2242F4F93}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gravel1" ID="{FEA37FBF-3F69-4527-BA40-CDB71A93FDE0}" ShortID="556870122">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E0F43E31-4CD7-46BE-BD1F-50269A2C9759}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gravel1" ID="{2DBE4723-D753-4E6C-8CDF-CC8CAFCFA775}">
+											<Language>SFX</Language>
+											<AudioFile>gravel1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1047266099"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gravel1" ID="{2DBE4723-D753-4E6C-8CDF-CC8CAFCFA775}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gravel2" ID="{BECA2C42-3C22-4C67-97BF-6C5C88891E87}" ShortID="329894475">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B5CE8BDA-EF21-405A-8950-305475FAF15E}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gravel2" ID="{394AA6FD-DE09-4801-B606-6E24983C28F2}">
+											<Language>SFX</Language>
+											<AudioFile>gravel2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1070800017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gravel2" ID="{394AA6FD-DE09-4801-B606-6E24983C28F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gravel3" ID="{46D16EBA-D022-4E81-9180-FE22C5132012}" ShortID="160788835">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19854ABE-7853-4A2B-9206-52F401EE6188}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gravel3" ID="{DB29C46B-394F-4774-98A4-9CEB0FD85C0E}">
+											<Language>SFX</Language>
+											<AudioFile>gravel3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576674322"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gravel3" ID="{DB29C46B-394F-4774-98A4-9CEB0FD85C0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Snow" ID="{2335A46C-245B-418B-8475-50F698006470}" ShortID="995095547">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{73304417-4E8C-4F14-B6BA-E464DF58C6C8}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="snow1" ID="{29313790-E945-452E-B6FF-D9039F187493}" ShortID="639770663">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A0955780-4684-4F26-BDC6-A3EA252F2679}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-126"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow1" ID="{BA8E9E0A-D36D-4B62-9785-2C2DE65DFB05}">
+											<Language>SFX</Language>
+											<AudioFile>snow1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021809811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow1" ID="{BA8E9E0A-D36D-4B62-9785-2C2DE65DFB05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow2" ID="{6E2C0E1F-0435-4A5C-A098-75BBD2BBCE4D}" ShortID="191398135">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D7B5338C-FA01-41B7-B538-1E990B119BE8}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow2" ID="{A1C157B6-1211-458D-A299-7C7BAF2F87D3}">
+											<Language>SFX</Language>
+											<AudioFile>snow2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413131683"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow2" ID="{A1C157B6-1211-458D-A299-7C7BAF2F87D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow3" ID="{42F38A7A-C5E1-47B1-AC9D-51274457BB64}" ShortID="781916144">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{771087A9-6728-4293-808E-106538BFC95C}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow3" ID="{DE027B2F-B548-44B4-9D48-CE9CCBACEB9E}">
+											<Language>SFX</Language>
+											<AudioFile>snow3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821766253"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow3" ID="{DE027B2F-B548-44B4-9D48-CE9CCBACEB9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Sand" ID="{A1EBC8F4-65A7-461E-9445-942975E3FA64}" ShortID="764591131">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B0CF4E98-ACA5-4A0A-9233-3749FBE75C1A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="531"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sand1" ID="{4787F50D-059D-4EE8-813D-07C9FBB79DF4}" ShortID="147653442">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A80FA3C9-7153-4163-A4A4-01D81BCDDA03}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sand1" ID="{4FA5D209-E827-4428-91E4-CDBD7A05E20F}">
+											<Language>SFX</Language>
+											<AudioFile>sand1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025474936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sand1" ID="{4FA5D209-E827-4428-91E4-CDBD7A05E20F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sand3" ID="{5163064E-D954-4ED4-888C-1811F562C244}" ShortID="494956441">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8DBF72D1-BD12-4C16-8BDD-3907CE6B59D1}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sand3" ID="{ECD43374-3AC1-4C28-94CA-1EC5DDCF23D4}">
+											<Language>SFX</Language>
+											<AudioFile>sand3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="89338410"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="sand2" ID="{F7BBBB7E-DB6A-4E46-B28A-8F53B7A3241A}">
+											<Language>SFX</Language>
+											<AudioFile>sand2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="939162870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sand3" ID="{ECD43374-3AC1-4C28-94CA-1EC5DDCF23D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sand2" ID="{42D6E736-10CD-47B7-88C2-928A554AAC67}" ShortID="204358275">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sand2" ID="{2F633F6C-5C87-4769-898C-6BCB36911A0E}">
+											<Language>SFX</Language>
+											<AudioFile>sand2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="939162870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sand2" ID="{2F633F6C-5C87-4769-898C-6BCB36911A0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Wood" ID="{F4FB75CC-6C7A-41DD-8B1E-88216E02BB29}" ShortID="667093861">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{057C711D-FB9C-4124-9E1B-6D9031049975}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="wood3" ID="{F57B3EB3-0D3A-4697-829C-2B6BF512954A}" ShortID="535105764">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0BB0790C-36C5-4FF6-BC7D-ED30CFF766BA}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood3" ID="{8A1F0255-D9A7-461C-AA1E-B7D676002212}">
+											<Language>SFX</Language>
+											<AudioFile>wood3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="240973050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood3" ID="{8A1F0255-D9A7-461C-AA1E-B7D676002212}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="wood2" ID="{251DBABC-C22A-4169-856C-BDB7A6F87F8E}" ShortID="681760696">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{289F16B2-22F8-47BB-B51C-0853C156A98B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood2" ID="{9FC93DD7-4DF7-4505-93A2-1BFB992EE1E3}">
+											<Language>SFX</Language>
+											<AudioFile>wood2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114050247"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood2" ID="{9FC93DD7-4DF7-4505-93A2-1BFB992EE1E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="wood1" ID="{D9176170-D14C-4C4E-916E-E3A5AC0CC84F}" ShortID="824332165">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FDF68B74-9BE3-40D0-B457-FB790BE25887}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood1" ID="{E1ABEA86-6E47-482F-9CD0-CB11531DB0E2}">
+											<Language>SFX</Language>
+											<AudioFile>wood1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988172674"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood1" ID="{E1ABEA86-6E47-482F-9CD0-CB11531DB0E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone" ID="{D81621C9-1FA6-4F82-BB08-CAD9FF397333}" ShortID="445496478">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C5AC3228-0B34-45A5-B884-2E9908758044}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="152"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="stone1" ID="{8A390F94-B755-402B-A0AE-ABAF801E8321}" ShortID="818993090">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A0EA6E8C-5286-4543-A4A5-9672724CFDE5}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stone1" ID="{D8604D0C-2295-49E5-8ECD-60B14D7A9A9E}">
+											<Language>SFX</Language>
+											<AudioFile>stone1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="213762995"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stone1" ID="{D8604D0C-2295-49E5-8ECD-60B14D7A9A9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stone2" ID="{BB73EA99-BDB4-40E1-8629-115F80DC559C}" ShortID="88228121">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8ABC8000-70C3-4A52-A879-F304F74F42C2}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stone2" ID="{66B7DD2C-6292-4697-835A-52B3107BB62A}">
+											<Language>SFX</Language>
+											<AudioFile>stone2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954301308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stone2" ID="{66B7DD2C-6292-4697-835A-52B3107BB62A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stone3" ID="{5E936407-ED46-4A34-ACDB-41284DD30EB4}" ShortID="458399850">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{30C89E5B-58C9-4A99-B9E9-211809ACEC98}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stone3" ID="{CD3394E8-D69D-4AE2-995E-3D93A87E3CE9}">
+											<Language>SFX</Language>
+											<AudioFile>stone3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="502251276"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stone3" ID="{CD3394E8-D69D-4AE2-995E-3D93A87E3CE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Grass" ID="{038C2F3A-1E8E-49EB-A125-8326812211DB}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravel" ID="{9DE2E83F-18D7-42A0-BC2B-722D98CB8DCD}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Metal" ID="{BE02CE64-817F-4211-B066-0FA271E97BF1}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Snow" ID="{2335A46C-245B-418B-8475-50F698006470}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{D81621C9-1FA6-4F82-BB08-CAD9FF397333}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Wood" ID="{F4FB75CC-6C7A-41DD-8B1E-88216E02BB29}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Sand" ID="{A1EBC8F4-65A7-461E-9445-942975E3FA64}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{A5466001-568A-4E97-A563-AF37142A26AF}"/>
+								<ItemList>
+									<ItemRef Name="Sand" ID="{A1EBC8F4-65A7-461E-9445-942975E3FA64}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wood" ID="{9BA1D874-C22A-4CF3-A8DB-FF306B13387B}"/>
+								<ItemList>
+									<ItemRef Name="Wood" ID="{F4FB75CC-6C7A-41DD-8B1E-88216E02BB29}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{75446B8A-A6D3-442A-A629-01524FE3EE99}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{D81621C9-1FA6-4F82-BB08-CAD9FF397333}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{363F1F90-A1E5-4432-AAFC-91DF7E26CE0F}"/>
+								<ItemList>
+									<ItemRef Name="Grass" ID="{038C2F3A-1E8E-49EB-A125-8326812211DB}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Snow" ID="{8E20C5C7-9066-4541-96E8-298CC63ED367}"/>
+								<ItemList>
+									<ItemRef Name="Snow" ID="{2335A46C-245B-418B-8475-50F698006470}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{CED5A9F7-E1F4-4695-A5F6-42137562A4E6}"/>
+								<ItemList>
+									<ItemRef Name="Gravel" ID="{9DE2E83F-18D7-42A0-BC2B-722D98CB8DCD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Metal" ID="{41E102F9-90F9-4128-823B-17B76D0FA8A3}"/>
+								<ItemList>
+									<ItemRef Name="Metal" ID="{BE02CE64-817F-4211-B066-0FA271E97BF1}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="buzz" ID="{51C752D0-32A6-4625-9729-9F46DC704B8A}" ShortID="981456651">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{0A0D0200-BB81-46FC-8055-DDCC0A123AE0}" ShortID="451355223">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="bee_distance" ID="{4ECE7708-2FB2-4996-AA00-B7BE504F887F}" WorkUnitID="{6C133A23-36A4-4638-BC4E-54B48BD545DB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0E9423A3-72DC-4FEE-8757-9D271999AE13}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>422</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>6</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="PriorityDistanceOffset" Type="int16">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{1C1ADF93-0F1D-4048-9AB5-7A93D5A9E96D}" ShortID="503436484">
+									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{77285724-ECF7-49EE-97C7-B744CAD37CA4}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="LowPassFilter" ID="{665F208E-16D6-41BD-A1D0-03B5B9646E49}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="HighPassFilter" ID="{AC4C2819-53A5-4065-B597-D3F7FE483893}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Pitch_Shifter_(Custom)" ID="{4B4FE3B9-6231-451A-BCB9-12D24C939AC8}" ShortID="165379850" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterFrequency" Type="Real32" Value="835"/>
+										<Property Name="FilterQFactor" Type="Real32" Value="0.5"/>
+										<Property Name="FilterType" Type="int32" Value="7"/>
+										<Property Name="Pitch" Type="Real32" Value="500"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{3D8AD64D-8648-45B3-809B-3061CA4EEB85}" ShortID="795620446" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="35"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-96"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="0"/>
+								<Property Name="Osc2Level" Type="Real32" Value="8"/>
+								<Property Name="Osc2Pwm" Type="Real32" Value="5"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="2"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{045393B1-C623-476D-A302-A447BC623D37}" ShortID="599762799">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{AC09229E-B690-43CF-8FA0-D796253223B6}" ShortID="548923207">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C3B60C34-479E-4477-8450-59341B9EE657}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="life_state" ID="{0786D8A6-F065-4AFF-B4DA-C6276A912D82}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+								<CustomState Name="" ID="{B2F51951-88DE-4509-BB05-0815CB67ED9B}" ShortID="115798828">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="alive" ID="{47EAE924-9C90-4726-90D1-FD18E4D83087}"/>
+								<CustomState Name="" ID="{C233D944-9CD0-42B6-810B-D917EA7401EC}" ShortID="750447067"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{3D8AD64D-8648-45B3-809B-3061CA4EEB85}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="carrot crunches" ID="{DDB5F9A2-3241-4CAF-A88E-79D7A4F08187}" ShortID="459372585">
+					<PropertyList>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.15"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1F8854B4-BCEC-4A57-B31D-D3FFD55AAFF3}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX" ID="{CE11B30A-6634-4BE1-B555-A1EE6D3A8F80}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="carrot crunch 1" ID="{46EA0D12-798F-47D2-9A78-8D494D1B7FE2}" ShortID="905964429">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B1493A68-A870-4FB7-8895-12C09AABDF8C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="126"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="carrot crunching" ID="{669B9A8C-5D82-4124-818C-D419271CD109}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.118034883455287"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="18.0301608494091"/>
+										<Property Name="TrimEnd" Type="Real64" Value="18.3218052229436"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>carrot crunching.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573020277"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="carrot crunching" ID="{669B9A8C-5D82-4124-818C-D419271CD109}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="later crunches" ID="{9042A504-63FA-41EB-A2C1-336B1229E0EC}" ShortID="942076480">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{990F11CC-5935-423E-8806-A3164E87BD7E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="carrot crunch 2" ID="{51D10ED2-F1CB-473F-A69F-0BD8B644AFB5}" ShortID="201750506">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="carrot crunching" ID="{0382286B-91BE-4C0C-BD91-CA3CF4905420}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="10.476227859704"/>
+												<Property Name="TrimEnd" Type="Real64" Value="11.3964370635969"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>carrot crunching.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1069736556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="carrot crunching" ID="{0382286B-91BE-4C0C-BD91-CA3CF4905420}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="carrot crunch 3" ID="{6C1EDF68-D4D6-4673-BEF3-C72DAFC21B6B}" ShortID="81999876">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="carrot crunching" ID="{05659B20-545C-4B57-A23E-921DB70BD0C7}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="50.2575795972285"/>
+												<Property Name="TrimEnd" Type="Real64" Value="51.0362181543687"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>carrot crunching.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352249606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="carrot crunching" ID="{05659B20-545C-4B57-A23E-921DB70BD0C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="carrot crunch 4" ID="{80C41620-29D5-4B07-8EE6-4C916B12F443}" ShortID="874693944">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="carrot crunching" ID="{3B2CB09E-F285-4EF7-A269-2E1A1FD2992F}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="23.2883713908285"/>
+												<Property Name="TrimEnd" Type="Real64" Value="23.9254393012159"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>carrot crunching.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="778144557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="carrot crunching" ID="{3B2CB09E-F285-4EF7-A269-2E1A1FD2992F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="cave" ID="{A318D63D-CC0E-4AB4-820F-B0CFE3DE3C5B}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="false" ID="{7691FA5D-0579-41C5-B903-A7CEC6375367}"/>
+								<CustomState Name="" ID="{868526F2-59A3-4525-A8F2-D2425D9601CD}" ShortID="265188769"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="true" ID="{B398F70A-E8CA-476B-8314-9F442996AEBB}"/>
+								<CustomState Name="" ID="{AF4D8870-5493-4848-97BA-1B2ECA12425B}" ShortID="757596402"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<Playlist>
+						<ItemRef Name="carrot crunch 1" ID="{46EA0D12-798F-47D2-9A78-8D494D1B7FE2}"/>
+						<ItemRef Name="later crunches" ID="{9042A504-63FA-41EB-A2C1-336B1229E0EC}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="carrot pulling" ID="{EA20E295-BCC8-4657-AAF6-DEB3D27157D7}" ShortID="893311663">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX" ID="{CE11B30A-6634-4BE1-B555-A1EE6D3A8F80}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="carrot pulling 1" ID="{2CA8D4D7-7FC4-4380-B660-C8BB296C986F}" ShortID="986325700">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="carrot pulling" ID="{24B93946-5A16-43EF-BA2F-6EE7BE131490}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.97529019246517"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.25824494723108"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>carrot pulling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="751037103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="carrot pulling" ID="{24B93946-5A16-43EF-BA2F-6EE7BE131490}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="carrot pulling 2" ID="{7D7629DF-0F23-4C2F-B860-EF9745518395}" ShortID="883856730">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="carrot pulling" ID="{A9D27250-AD48-432A-99CA-2E706FC7FD14}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.4342169698033"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.64863865764337"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>carrot pulling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="314218332"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="carrot pulling" ID="{A9D27250-AD48-432A-99CA-2E706FC7FD14}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="carrot pulling 3" ID="{FB21C4E4-7A9C-4C22-977F-B26EA477D670}" ShortID="723424495">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="carrot pulling" ID="{7E1C872E-D6CE-41B5-99EE-C7F0E71964E6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="20.3034339425316"/>
+										<Property Name="TrimEnd" Type="Real64" Value="20.5173290186153"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>carrot pulling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1003667622"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="carrot pulling" ID="{7E1C872E-D6CE-41B5-99EE-C7F0E71964E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="carrot pulling 4" ID="{20B316A6-1CCC-4387-8E9C-AE8D93E17214}" ShortID="812477650">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="carrot pulling" ID="{B2B56BAB-92E4-49CF-B2DD-EC7D3836861A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="29.34275141821"/>
+										<Property Name="TrimEnd" Type="Real64" Value="29.530343836466"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>carrot pulling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1005844554"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="carrot pulling" ID="{B2B56BAB-92E4-49CF-B2DD-EC7D3836861A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="melody" ID="{60A6F4C8-F8D0-4102-A293-292A4563CD90}" ShortID="194238430">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{9C2F874D-587B-4C04-A5BB-A5A994B035B6}" ShortID="394865980">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="speaker_distance" ID="{472AE738-DBE8-4965-9587-564F49B7B51A}" WorkUnitID="{6C133A23-36A4-4638-BC4E-54B48BD545DB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1EDBA52C-33C3-4D7E-B697-7D9582C90F71}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>19.79721</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>25</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{2B2F2EEB-7175-4450-8110-7FDEC424BAD4}" ShortID="1003979390">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="speaker_listener_angle" ID="{676138FF-0413-49AD-952D-D0C90585151C}" WorkUnitID="{6C133A23-36A4-4638-BC4E-54B48BD545DB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E9E66A04-1D28-4163-90A6-65D988589C78}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>10.71204</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{420D39F5-3AFB-479C-AA45-C5D95A791995}" ShortID="708974906">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="speaker_emitter_angle" ID="{55CF775F-2538-46EF-A5FF-BE486352C2E6}" WorkUnitID="{6C133A23-36A4-4638-BC4E-54B48BD545DB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{24326231-54F0-41B6-8D8B-628689C2C668}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>10.71204</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{EE5469C8-A5A0-4E10-A0C9-E14E71587EEF}" ShortID="17256672" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="NoiseShape" Type="int32" Value="1"/>
+								<Property Name="OperationMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="0"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="25"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-1200"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="0"/>
+								<Property Name="Osc2Pwm" Type="Real32" Value="75"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="-1200"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-46">
+									<RTPCList>
+										<RTPC Name="" ID="{D0215072-90C8-49E5-ACE6-FC8DAAB17A2F}" ShortID="527675217">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{BA3446FB-CB26-4B69-8627-73831277451F}" ShortID="1001524185">
+															<PropertyList>
+																<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.489"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.732"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="50"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CED9A1D3-114A-4F82-A9C7-F8F721EE6810}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverSampling" Type="bool" Value="False"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="life_state" ID="{0786D8A6-F065-4AFF-B4DA-C6276A912D82}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="speaker_occluded" ID="{84111AA1-C666-426F-84B5-8DFBF69A67FB}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="dead" ID="{64454021-D934-4032-9592-A02833239EA1}"/>
+								<CustomState Name="" ID="{E7ED78CD-F354-4CD4-87EF-EA9CBAD1CF77}" ShortID="823089359">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="true" ID="{677840A1-E555-42C4-9206-D2C08B6EBC07}"/>
+								<CustomState Name="" ID="{D6495721-8A28-44B1-8C7E-EB604FAE00A6}" ShortID="14236993">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="75"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="alive" ID="{47EAE924-9C90-4726-90D1-FD18E4D83087}"/>
+								<CustomState Name="" ID="{400DB6A2-7A81-4D49-93C0-720E6066D827}" ShortID="37545914"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="false" ID="{89F1B815-4048-4DD9-AD8C-C004E2FCB8CB}"/>
+								<CustomState Name="" ID="{7C2B48FA-F5A5-4E0E-9080-3C7C707E313A}" ShortID="193977885"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{EE5469C8-A5A0-4E10-A0C9-E14E71587EEF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bass" ID="{313BAA50-4E71-4779-BAF1-4CDBCB8BBF31}" ShortID="505557007">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BF77341-8AC3-4BB4-A234-7DCDB6FBEA96}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="Standard" ID="{1A2EAB31-6283-4C0D-89B2-F050DF89D421}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F20F2EC0-2E63-4692-9DB2-283887B2BA6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{2982A5C5-0816-4559-B3A5-2BFB49817F38}" ShortID="112401462" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="0"/>
+								<Property Name="Osc1Transpose" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{950E6965-E25A-43F9-98C1-2393B0428CFD}" ShortID="610177993">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="New Modulator Envelope_01" ID="{453A89F4-91AB-443E-9B57-FE7AE6B0121E}" WorkUnitID="{730C43FE-793D-4FD0-BDB0-2E21EA2AB63A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6D116F53-D110-49A1-A587-27C71A94D8BF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2989</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-1726</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+								<Property Name="Osc2Transpose" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{E1D9B5EB-AA8B-4D6F-BE8F-19A112184D89}" ShortID="527213371">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="New Modulator LFO" ID="{63458EAA-812F-4C05-89DE-F8A6D2055730}" WorkUnitID="{730C43FE-793D-4FD0-BDB0-2E21EA2AB63A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0B27EED5-7677-40BB-B891-1A4D3628A720}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-26">
+									<RTPCList>
+										<RTPC Name="" ID="{5C5A731B-D69B-4DE0-BF28-1DFB2EB4F295}" ShortID="645815180">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{0C21722F-6538-4322-844F-920D5BEA3774}" ShortID="845613196">
+															<PropertyList>
+																<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.053"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.611"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="22.6"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{11F9C1DD-EA6C-49EC-979C-9431CF3ADF05}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{2982A5C5-0816-4559-B3A5-2BFB49817F38}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,109 @@
+Event	ID	Name			Wwise Object Path	Notes
+	116178158	Footstep_Event			\Default Work Unit\Footstep_Event	
+	656197135	metal_event			\Default Work Unit\biome events\metal_event	
+	695265601	snow_event			\Default Work Unit\biome events\snow_event	
+	712465182	pull_carrot			\Default Work Unit\pull_carrot	
+	1210888417	speaker_no_occlusion_event			\Default Work Unit\speaker_no_occlusion_event	
+	1380921214	sand_event			\Default Work Unit\biome events\sand_event	
+	1545069278	Buzz			\Default Work Unit\Buzz	
+	1866025847	Footstep			\Default Work Unit\Footstep	
+	1955262086	drum_and_bass_event			\Default Work Unit\drum_and_bass_event	
+	2090041243	wood_event			\Default Work Unit\biome events\wood_event	
+	2183782904	melody_event			\Default Work Unit\melody_event	
+	2830206093	gravel_event			\Default Work Unit\biome events\gravel_event	
+	3024221945	eat_carrot			\Default Work Unit\eat_carrot	
+	3091691547	speaker_occlusion_event			\Default Work Unit\speaker_occlusion_event	
+	3150300228	death_event			\Default Work Unit\death_event	
+	3218625211	dirt_event			\Default Work Unit\biome events\dirt_event	
+	3309131369	stone_event			\Default Work Unit\biome events\stone_event	
+	3890470156	grass_event			\Default Work Unit\biome events\grass_event	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	707535153	life_state			\Default Work Unit\life_state	
+	3457490076	speaker_occluded			\Default Work Unit\speaker_occluded	
+	4122393694	cave			\Default Work Unit\cave	
+
+State	ID	Name	State Group			Notes
+	655265632	alive	life_state			
+	748895195	None	life_state			
+	2044049779	dead	life_state			
+	748895195	None	speaker_occluded			
+	2452206122	false	speaker_occluded			
+	3053630529	true	speaker_occluded			
+	748895195	None	cave			
+	2452206122	false	cave			
+	3053630529	true	cave			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	14236993	true	speaker_occluded	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+	115798828	dead	life_state	\Actor-Mixer Hierarchy\Default Work Unit\buzz		
+	490977706	dead	life_state	\Interactive Music Hierarchy\Default Work Unit\drum and bass container		
+	823089359	dead	life_state	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1217018071	speaker_listener_angle			\Default Work Unit\speaker_listener_angle	
+	1860277923	bee_distance			\Default Work Unit\bee_distance	
+	1954255994	speaker_distance			\Default Work Unit\speaker_distance	
+	2295050251	speaker_emitter_angle			\Default Work Unit\speaker_emitter_angle	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	548923207	Modulator Envelope (Custom)				
+	1001524185	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	331148357	snow_trigger			\Default Work Unit\snow_trigger	
+	1158204429	stone_trigger			\Default Work Unit\stone_trigger	
+	1283900866	Footstep_Trigger			\Default Work Unit\Footstep_Trigger	
+	1485923599	wood_trigger			\Default Work Unit\wood_trigger	
+	2115218395	metal_trigger			\Default Work Unit\metal_trigger	
+	2657709170	sand_trigger			\Default Work Unit\sand_trigger	
+	2859233241	gravel_trigger			\Default Work Unit\gravel_trigger	
+	4196185040	grass_trigger			\Default Work Unit\grass_trigger	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4122393694	cave			\Default Work Unit\Master Audio Bus\cave	
+
+Effect plug-ins	ID	Name	Type				Notes
+	165379850	Wwise_Pitch_Shifter_(Custom)	Wwise Pitch Shifter			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	17256672	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\melody\Wwise Synth One	
+	795620446	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\buzz\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47941933	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\wood2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		5179
+	65677158	grass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\grass1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\grass\grass		3952
+	145188559	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\snow2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		3072
+	168900262	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\snow1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		2870
+	182675391	melody	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\melody_53187643.wmid		\Interactive Music Hierarchy\Default Work Unit\melody container\melody segment\melody		1422
+	241528565	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\wood3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		4782
+	306226971	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\stone1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		5115
+	314218332	carrot pulling 2	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot pulling_5777B037.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 2		3614
+	352249606	carrot crunch 3	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot crunching_EB6482EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 3		12420
+	437513822	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\metal1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		4261
+	490932561	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\metal2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		4440
+	532095538	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\metal3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		4797
+	568836554	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\wood1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		4875
+	573020277	carrot crunch 1	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot crunching_A705F2BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\carrot crunch 1		5987
+	595856568	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\sand1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		3204
+	685919870	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\stone3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		4860
+	699039222	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\gravel1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		4752
+	726876384	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\sand3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		3467
+	751037103	carrot pulling 1	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot pulling_EBFB656B.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 1		4496
+	778144557	carrot crunch 4	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot crunching_99ED307F.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 4		11228
+	954675299	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\snow3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		3262
+	981059498	drum	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\drum_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\drum and bass container\drum and bass segment\drum		105856
+	1003667622	carrot pulling 3	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot pulling_2E59EC1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 3		3569
+	1005844554	carrot pulling 4	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot pulling_8CA8A0A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot pulling\carrot pulling 4		3158
+	1006991420	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\gravel2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		5218
+	1013458678	grass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\grass3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\grass\grass		5130
+	1038956717	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\sand2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		3049
+	1049264431	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\stone2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		5192
+	1056488601	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\gravel3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		5333
+	1066184890	bass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\drum and bass container\drum and bass segment\bass		71296
+	1069736556	carrot crunch 2	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\carrot crunching_CC62DF50.wem		\Actor-Mixer Hierarchy\Default Work Unit\carrot crunches\later crunches\carrot crunch 2		15666
+

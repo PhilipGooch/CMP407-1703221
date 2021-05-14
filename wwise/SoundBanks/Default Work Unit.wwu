@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0241CDAE-D887-4E09-AD7F-4FF0FB46659F}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0241CDAE-D887-4E09-AD7F-4FF0FB46659F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="footsteps" ID="{81515FAF-ED4A-4A0D-824C-6E32106939CA}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="biome events" ID="{9F93AB44-892C-431B-918A-F2CDBDE1A78D}" WorkUnitID="{C819B834-4C4D-498E-8AE5-5797021FBF31}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="main" ID="{A40404EF-3303-4EC4-B12B-B6FD5E198958}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{A65F265E-3584-4556-8E26-BB3A5A65435D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{9696369C-A589-43CE-8446-80811482B65A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Events" ID="{13EC3906-B490-4CFE-A491-8D6AAF59AD98}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

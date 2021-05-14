@@ -1,0 +1,67 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1955262086	drum_and_bass_event			\Default Work Unit\drum_and_bass_event	
+	2183782904	melody_event			\Default Work Unit\melody_event	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	707535153	life_state			\Default Work Unit\life_state	
+	3457490076	speaker_occluded			\Default Work Unit\speaker_occluded	
+
+State	ID	Name	State Group			Notes
+	655265632	alive	life_state			
+	748895195	None	life_state			
+	2044049779	dead	life_state			
+	748895195	None	speaker_occluded			
+	2452206122	false	speaker_occluded			
+	3053630529	true	speaker_occluded			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	14236993	true	speaker_occluded	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+	490977706	dead	life_state	\Interactive Music Hierarchy\Default Work Unit\drum and bass container		
+	823089359	dead	life_state	\Actor-Mixer Hierarchy\Default Work Unit\melody		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1217018071	speaker_listener_angle			\Default Work Unit\speaker_listener_angle	
+	1954255994	speaker_distance			\Default Work Unit\speaker_distance	
+	2295050251	speaker_emitter_angle			\Default Work Unit\speaker_emitter_angle	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1001524185	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	331148357	snow_trigger			\Default Work Unit\snow_trigger	
+	1158204429	stone_trigger			\Default Work Unit\stone_trigger	
+	1283900866	Footstep_Trigger			\Default Work Unit\Footstep_Trigger	
+	1485923599	wood_trigger			\Default Work Unit\wood_trigger	
+	2115218395	metal_trigger			\Default Work Unit\metal_trigger	
+	2657709170	sand_trigger			\Default Work Unit\sand_trigger	
+	2859233241	gravel_trigger			\Default Work Unit\gravel_trigger	
+	4196185040	grass_trigger			\Default Work Unit\grass_trigger	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	17256672	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\melody\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47941933	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\wood2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		80312
+	65677158	grass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\grass1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\grass\grass		50636
+	145188559	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\snow2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		50972
+	168900262	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\snow1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		47788
+	182675391	melody	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\melody_53187643.wmid		\Interactive Music Hierarchy\Default Work Unit\melody container\melody segment\melody		1422
+	241528565	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\wood3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		75852
+	306226971	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\stone1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		82540
+	437513822	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\metal1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		65816
+	490932561	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\metal2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		67940
+	532095538	metal	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\metal3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\metal\metal		74304
+	568836554	wood	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\wood1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\wood\wood		80312
+	595856568	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\sand1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		53196
+	685919870	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\stone3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		72184
+	699039222	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\gravel1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		73068
+	726876384	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\sand3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		55772
+	954675299	snow	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\snow3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\snow\snow		56272
+	981059498	drum	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\drum_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\drum and bass container\drum and bass segment\drum		105856
+	1006991420	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\gravel2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		80312
+	1013458678	grass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\grass3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\grass\grass		61988
+	1038956717	sand	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\sand2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\sand\sand		51036
+	1049264431	stone	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\stone2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\stone\stone		76248
+	1056488601	gravel	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\gravel3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers Switch\gravel\gravel		78640
+	1066184890	bass	C:\Users\phili\Documents\C#\Unity\CMP407\CMP407_WwiseProject\.cache\Mac\SFX\bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\drum and bass container\drum and bass segment\bass		71296
+
